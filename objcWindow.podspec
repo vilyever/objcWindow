@@ -9,28 +9,29 @@
 
 Pod::Spec.new do |s|
   s.name             = "objcWindow"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "objcWindow"
   s.description      = <<-DESC
                        objcWindow
                        DESC
   s.homepage         = "https://github.com/vilyever"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+# s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "vilyever" => "vilyever@gmail.com" }
   s.source           = { :git => "https://github.com/vilyever/objcWindow.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/vilyever'
+# s.social_media_url = 'https://twitter.com/vilyever'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'objcWindow/**/*.{h,m}'
-#s.resource_bundles = {
+# s.resource_bundles = {
 #   'objcWindow' => ['objcWindow/**/*.png']
 # }
 
   s.public_header_files = 'objcWindow/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+# s.frameworks = 'UIKit', 'MapKit'
 
-  s.dependency 'objcWeakRef', :podspec => 'https://raw.githubusercontent.com/vilyever/objcWeakRef/master/objcWeakRef.podspec'
+# s.dependency 'objcWindow'
+
 end
