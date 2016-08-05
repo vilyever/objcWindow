@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE64021E1D54209C00652BAC /* objcWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = FE64021D1D54209C00652BAC /* objcWindow.h */; };
+		FE64021E1D54209C00652BAC /* objcWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = FE64021D1D54209C00652BAC /* objcWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6402251D54209C00652BAC /* objcWindow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE64021A1D54209C00652BAC /* objcWindow.framework */; };
 		FE64022A1D54209C00652BAC /* objcWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6402291D54209C00652BAC /* objcWindowTests.m */; };
 		FE6402361D5420B500652BAC /* objcWindow.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE6402341D5420B500652BAC /* objcWindow.podspec */; };
-		FE6402371D5420B500652BAC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FE6402351D5420B500652BAC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -202,7 +201,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE6402371D5420B500652BAC /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
