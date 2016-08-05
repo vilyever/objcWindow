@@ -2,13 +2,13 @@
 objcWindow
 
 ## Import
+### [Carthage](https://github.com/Carthage/Carthage)
+github "vilyever/objcWindow" "master"
+
 ### [CocoaPods](http://cocoapods.org)
 use_frameworks!
 </br>
-pod 'objcWindow'
-
-### [Carthage](https://github.com/Carthage/Carthage)
-github "vilyever/objcWindow" "master"
+pod 'objcWindow', :podspec => 'https://raw.githubusercontent.com/vilyever/objcWindow/master/objcWindow.podspec'
 
 ## Usage
 

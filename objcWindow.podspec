@@ -9,10 +9,10 @@
 
 Pod::Spec.new do |s|
   s.name             = "objcWindow"
-  s.version          = "1.0.0"
-  s.summary          = "sth useful."
+  s.version          = "1.0.1"
+  s.summary          = "objcWindow"
   s.description      = <<-DESC
-                       wait for next time.
+                       objcWindow
                        DESC
   s.homepage         = "https://github.com/vilyever"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
@@ -32,5 +32,5 @@ Pod::Spec.new do |s|
   s.public_header_files = 'objcWindow/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
 
-  # s.dependency 'objcTemp'
+  s.dependency 'objcWeakRef', :podspec => 'https://raw.githubusercontent.com/vilyever/objcWeakRef/master/objcWeakRef.podspec'
 end
