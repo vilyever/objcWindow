@@ -11,6 +11,7 @@
 		FE6402251D54209C00652BAC /* objcWindow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE64021A1D54209C00652BAC /* objcWindow.framework */; };
 		FE64022A1D54209C00652BAC /* objcWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6402291D54209C00652BAC /* objcWindowTests.m */; };
 		FE6402361D5420B500652BAC /* objcWindow.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE6402341D5420B500652BAC /* objcWindow.podspec */; };
+		FE640AA21D584EC500652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE640AA11D584EC500652BAC /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		FE64022B1D54209C00652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE6402341D5420B500652BAC /* objcWindow.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcWindow.podspec; sourceTree = "<group>"; };
 		FE6402351D5420B500652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE640AA11D584EC500652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FE64021C1D54209C00652BAC /* objcWindow */,
 				FE6402281D54209C00652BAC /* objcWindowTests */,
 				FE64021B1D54209C00652BAC /* Products */,
+				FE640AA11D584EC500652BAC /* Cartfile */,
 				FE6402341D5420B500652BAC /* objcWindow.podspec */,
 				FE6402351D5420B500652BAC /* README.md */,
 			);
@@ -183,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE640AA21D584EC500652BAC /* Cartfile in Resources */,
 				FE6402361D5420B500652BAC /* objcWindow.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +388,7 @@
 				FE6402301D54209C00652BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE6402311D54209C00652BAC /* Build configuration list for PBXNativeTarget "objcWindowTests" */ = {
 			isa = XCConfigurationList;
@@ -392,6 +397,7 @@
 				FE6402331D54209C00652BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
